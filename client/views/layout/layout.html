@@ -18,7 +18,8 @@
 					</a>
 				</div>
 				<div id="menu" class="collapse navbar-collapse">
-					{{> layoutMainMenu}}
+					<li><a href="">Item 1</a></li>
+					<li><a href="">Item 2</a></li>
 				</div>
 			</div>
 		</div>
@@ -33,19 +34,3 @@
 		</div>
 	</div>
 </template>
-
-<template name="layoutMainMenu">
-	<ul id="menu-items" class="nav navbar-nav">
-		<li id="menu-item-simple" class="{{menuItemClass 'home'}}">
-			<a href="{{pathFor 'home'}}">
-				Home page
-			</a>
-		</li>
-		<li id="menu-item-simple" class="{{menuItemClass 'about'}}">
-			<a href="{{pathFor 'about'}}">
-				About
-			</a>
-		</li>
-	</ul>
-</template>
-

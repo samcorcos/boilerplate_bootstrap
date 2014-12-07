@@ -1,16 +1,11 @@
-Template.About.rendered = function() {
-	
+Template.about.rendered = function() {
+
 };
 
-Template.About.events({
-	"click #page-close-button": function(e, t) {
-		e.preventDefault();
-		Router.go("", {});
-	}, 
+Template.about.events({
 
-	
 });
 
-Template.About.helpers({
-	
+Template.about.helpers({
+
 });
