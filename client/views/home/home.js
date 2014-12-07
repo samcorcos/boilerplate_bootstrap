@@ -1,11 +1,11 @@
-Template.Home.rendered = function() {
+Template.home.rendered = function() {
 
 };
 
-Template.Home.events({
+Template.home.events({
 
 });
 
-Template.Home.helpers({
+Template.home.helpers({
 
 });
