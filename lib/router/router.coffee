@@ -4,10 +4,13 @@ Router.configure
   loadingTemplate: "loading"
 
 Router.map ->
+  
   @route "home",
     path: "/"
     controller: "HomeController"
+
   @route "about",
     path: "/about"
     controller: "AboutController"
+
   return
