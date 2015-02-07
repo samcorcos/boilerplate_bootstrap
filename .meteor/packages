@@ -12,6 +12,6 @@ matb33:collection-hooks
 sacha:spin
 mizzao:bootstrap-3
 
-particle4dev:sass
 coffeescript
 wolves:bourbon
+fourseven:scss@=1.0.0
